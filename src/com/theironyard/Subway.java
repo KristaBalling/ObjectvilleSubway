@@ -1,5 +1,7 @@
 package com.theironyard;
 
+import javax.swing.text.html.HTMLDocument;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -37,5 +39,21 @@ public void addConnection(String station1Name, String station2Name,
         } else {
             throw new RuntimeException("Invalid connection!");
         }
+    }
+
+    public boolean hasConnection(String station1Name, String station2Name,
+                                 String lineName) {
+        Station station1 = new Station(station1Name);
+        Station station2 = new Station(station2Name);
+        for(Iterator i = connections.iterator(); i.hasNext(); ) {
+            Connection connection = (Connection)i.next();
+            if(connection.getLineName().equalsIgnoreCase(lineName)) {
+                if((connection.getStation1().equals(station1))&&
+                        (connection.getStation2().equals(station2))) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

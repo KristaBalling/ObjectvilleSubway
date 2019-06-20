@@ -73,8 +73,8 @@ private void addToNetwork(Station station1, Station station2) {
         return false;
     }
 
-    private List getDirections(String startStationName,
-                               String endStationName) {
+    public List getDirections(String startStationName,
+                              String endStationName) {
         if(!this.hasStation(startStationName) ||
         !this.hasStation(endStationName)) {
             throw new RuntimeException(

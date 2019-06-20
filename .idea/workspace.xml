@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c749ecc-a399-48b0-8650-9ba9894042d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/theironyard/SubwayPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/theironyard/SubwayTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/theironyard/Subway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/theironyard/Subway.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/SubwayPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
@@ -68,6 +69,18 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#190#191#0" expanded="true" />
                 <element signature="e#233#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/theironyard/SubwayTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,10 +128,11 @@
         <option value="$PROJECT_DIR$/src/com/theironyard/SubwayLoader.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/Subway.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/SubwayPrinter.java" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/SubwayTester.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -157,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561049576443" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561052901667" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,7 +229,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10501066" />
@@ -309,6 +323,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/SubwayTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
